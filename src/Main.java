@@ -1,5 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+
+        SecurityUtis.check("asdqewd231", "12346_", "12346_");
+
+
     }
 }
