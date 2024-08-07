@@ -3,10 +3,11 @@ public class Main {
 
         try {
             SecurityUtis.check("asdqewd231", "12346_*", "12346_");
-
-        } catch (WrongPasswordException e) {
-            System.err.println("Error!");
+            System.out.println("Все отлично");
+        }catch (Exception e) {
+            System.out.println("Error!" + e.getMessage());
         }
+
 
 
     }
